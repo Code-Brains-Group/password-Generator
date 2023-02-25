@@ -31,23 +31,23 @@ index.html
 `getUppercase()` <br/>
 *This function returns a random uppercase letter from the upperLetters string.*
 
-`getNumber()`
-*This function returns a random number from the numbers string.
+`getNumber()` <br/>
+*This function returns a random number from the numbers string.*
 
-getSymbol()
-This function returns a random symbol from the symbol string.*
+`getSymbol()` <br/>
+*This function returns a random symbol from the symbol string.*
 
 `generatePassword()`
 *This function generates a random password based on the user's specified requirements. It gets the password length from the lenEl input field, and then generates each character in the password by calling the generateX() function. The generated password is displayed in the PwEl element.*
 
-`generateX()
-This function generates a random character for the password based on the user's specified requirements. It uses the getLowercase(), getUppercase(), getNumber(), and getSymbol() functions to get a random character from the corresponding character set. It then returns a random character from the set of character types that the user has selected.
+`generateX()` <br/>
+*This function generates a random character for the password based on the user's specified requirements. It uses the getLowercase(), getUppercase(), getNumber(), and getSymbol() functions to get a random character from the corresponding character set. It then returns a random character from the set of character types that the user has selected.*
 
-Event Listeners
-The following event listeners are used in the JavaScript code:
+# Event Listeners
+*The following event listeners are used in the JavaScript code:*
 
-generateEl.addEventListener("click", generatePassword)
-This event listener is attached to the "Generate Password" button, and calls the generatePassword() function when the button is clicked.
+`generateEl.addEventListener("click", generatePassword)` <br/>
+*This event listener is attached to the "Generate Password" button, and calls the generatePassword() function when the button is clicked.*
 
-copyEl.addEventListener("click", () => { ... })
-This event listener is attached to the "Copy Password"
+`copyEl.addEventListener("click", () => { ... })`
+*This event listener is attached to the "Copy Password"*
